@@ -1,2 +1,17 @@
 # Voice-Actuated-Robotic-Assistant-for-Object-Retrieval
-This voice-controlled robotic arm assists users with upper-limb disabilities by retrieving and delivering objects. Using AI voice recognition and computer vision, it identifies items and brings them safely to the user, enhancing independence and reducing reliance on full-time caregivers
+A hands-free robotic solution for patients with upper-limb disabilities to retrieve medicine and snacks.
+
+## 🛠 Hardware Used
+- Arduino Mega 2560
+- PCA9685 Servo Controller
+- 3x MG996R Servos (Base, Shoulder, Forearm)
+- 1x MG90S Servo (Gripper)
+- 5V 10A Power Supply
+
+## 🔌 Circuit Diagram
+![Circuit Diagram](Media/circuit_image.jpg)
+
+## 🚀 How to Run
+1. **Arduino:** Upload the code in `/Firmware` to your Mega.
+2. **Python:** Install dependencies: `pip install speech_recognition sounddevice scipy pyttsx3 pyserial`.
+3. **Execution:** Run the Python script and say "Medicine" or "Biscuit".
