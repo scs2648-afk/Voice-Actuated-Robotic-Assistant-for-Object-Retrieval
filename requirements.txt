@@ -1,0 +1,7 @@
+Description: List of Python dependencies for GitHub and easy installation.
+
+speech_recognition
+sounddevice
+scipy
+pyttsx3
+pyserial
